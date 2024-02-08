@@ -1,0 +1,230 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+  }
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: #230747;
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+    color: #F8BE7E;
+}
+
+#navbarSupportedContent a{
+    color: #FFF;
+    border-bottom: 2px solid transparent;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#navbarSupportedContent a:hover{
+    border-top: 2px solid #F8BE7E;
+}
+#navbarSupportedContent button{
+    background: #F8BE7E;
+    border-radius: 15px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)) ,url(/beau.jpg) ;
+    background-size:cover;
+    background-position: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.1);
+}
+
+#home img{
+    width: 200px;
+    
+}
+
+#home h1{
+    color: #FFF;
+    font-size: 90px;
+    text-shadow: 5px 5px 20px rgba(0,0,0,50);
+    letter-spacing: 5px;
+
+    }
+
+#home p{
+    font-size: 20px;
+    color: #FFF;
+    text-shadow: 5px 5px 20px rgba(0,0,0,50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#home .input-group{
+    width: 50%;
+    height: 50px;
+}
+
+.signin{
+    background-color: #F8BE7E;
+    color: #230747;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 2px,4px,5px,rgba(0,0,0,.3);
+}
+
+#bs{
+    background: #E4A0F7;
+}
+
+#bs h1{
+    color: #230747;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+#bs p{
+    color: #230747;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#bs a{
+    background: #230747;
+    color:#FFF ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+
+.carousel-inner{
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.7);
+
+}
+#products{
+    background: #E4A0F7;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+
+}
+
+#products h1{
+    color: #230747;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    font-weight: 800;
+    font-size: 70px;
+    letter-spacing: 5px;
+
+}
+
+#products img{
+    width: 200px;   
+    
+}
+
+.card{
+    width: 200px;
+    height: 360px;
+    margin-top: 5%;
+    border-radius:15px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+#products a{
+    background: #230747;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+#about img{
+    width: 80%;
+   ;
+}
+
+#about h1{
+color: #230747;
+}
+
+#about{
+    background: #E4A0F7;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+}
+#about p{
+    color: #230747;
+    font-family: 'Poppins', sans-serif;
+    gap: 60px;
+}
+
+#contact{
+    background: #230747;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+
+
+}
+
+#contact img{
+    height: 100%;
+}
+
+#contact h1{
+    color: #FFF;
+}
+
+.box{
+    width: 80%;
+    margin-top: 70px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input{
+    margin: 10px 0px;
+}
+
+#contact textarea{
+    margin: 10px 0px;
+}
+
+#foot{
+    background-color: #E4A0F7;
+}
+
+#foo{
+    background: #E4A0F7;
+}
+
+.footertext {
+    padding-top: 100px;
+    }
+    .footertext a{
+        color: #230747;
+        margin-top: 30px;
+        gap: 50px;
+        text-decoration: none;
+
+    }
+    .ender img{
+        width: 90px;
+        position: absolute;
+        left: 45%;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    
+    }
+    
+    
